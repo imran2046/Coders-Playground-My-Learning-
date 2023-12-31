@@ -1,0 +1,255 @@
+body {
+  background-color: khaki;
+}
+
+h1 {
+  /*border-style: double;
+      color: black;*/
+  border: double black;
+  border-radius: 8px;
+  background-color: lightgoldenrodyellow;
+  width: 350px;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+}
+
+.test {
+  border-left: 6px green solid;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#myId {
+  font-size: 30px;
+  color: rgb(255, 0, 0);
+}
+
+.myClass {
+  font-size: 25px;
+  background-color: lightsalmon;
+  text-align: center;
+  display: inline;
+}
+
+.chng {
+  font-size: 30px;
+  color: crimson;
+}
+
+.myHeading {
+  text-align: center;
+  color: chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.myImg {
+  border: 2px lightsalmon solid;
+  border-radius: 12px;
+  margin-left: 15px;
+  width: 35%;
+  height: 50%;
+  float: right;
+}
+
+.myTxt {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.football {
+  border: 3px solid green;
+  height: 250px;
+  width: 600px;
+  margin: 20px 400px;
+  padding: 20px;
+  outline-style: ridge;
+  outline-color: black;
+  outline-width: auto;
+  text-align: justify;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.cricket {
+  border: 3px solid green;
+  height: 250px;
+  width: 600px;
+  margin: 20px 400px;
+  padding: 20px;
+  outline-style: ridge;
+  outline-color: black;
+  outline-width: auto;
+  text-align: justify;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.basketball {
+  border: 3px solid green;
+  width: 600px;
+  height: 250px;
+  margin: 20px 400px;
+  padding: 20px;
+  /*outline-style: ridge;
+    outline-color: black;
+    outline-width: auto;*/
+  outline: 3px ridge black;
+  text-align: justify;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+a#myHvr {
+  background-color: rgb(0, 0, 0);
+  color: hotpink;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a#myHvr:hover {
+  background-color: rgb(26, 33, 36);
+  font-weight: bolder;
+  font-size: large;
+  text-align: center;
+  text-transform: capitalize;
+  color: blue;
+  text-decoration: underline;
+  padding: 10px;
+}
+input.myInput[type=text]{
+  height: 20px;
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+input.myInput:focus{
+  border: 4px rgb(255, 0, 0) solid;
+}
+
+.myTbl, .myTr, .myTd{
+  width: 180px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 30px;
+  border:2px black solid ;
+  border-collapse: collapse;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.myHd{
+  border: 2px solid black;
+  border-collapse: collapse;
+  color: aliceblue;
+  background-color: rgb(255, 0, 136);
+}
+
+.myTr:nth-child(even){
+  background-color:lightgrey;
+}
+.myTr:nth-child(odd){
+  background-color: rgb(0, 162, 255);
+}
+
+.myTr:hover{
+  background-color: rgba(197, 255, 71, 0.513);
+}
+
+.myOpc {
+  margin: auto;
+  display: block;
+  opacity: 50%;
+}
+
+.myOpc:hover {
+  margin: auto;
+  display: block;
+  opacity: 100%;
+}
+
+.nevMenu {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.nevBtnList {
+  float: left;
+}
+
+.nevBtnList .nevLink {
+  display: block;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.nevBtnList .nevLink:hover {
+  background-color: blueviolet;
+}
+#myTrs {
+  height: 50px;
+  width: 300px;
+  background-image: linear-gradient(to left,lightsalmon,blue);
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+}
+#myTrs:hover {
+  width: 600px;
+}
+#myAnim {
+  background-color: blue;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+#myAnim:hover{
+  animation-name: clr-chng;
+  animation-duration: 6s;
+}
+@keyframes clr-chng {
+  0% {
+    background-color: red;
+  }
+  15% {
+    background-color: green;
+  }
+  30% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: black;
+  }
+  75% {
+    background-color: navy;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+#myAnim2{
+    background-color: lawngreen;
+    height: 80px;
+    width: 80px;
+    margin-right: auto;
+    animation-name: example;
+    position: relative;
+    animation-duration: 6s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {background-color:lawngreen;left: 0px; top: 0x;}
+    25% {background-color: blue ;left: 200px; top:0px;}
+    50% {background-color: red; left:200px; top:200px; }
+    75% {background-color: orangered; left:0px; top:200px;}
+    100% {background-color: violet; left:0px; top:0px;}
+}
+.clr{
+  clear: both;
+}
