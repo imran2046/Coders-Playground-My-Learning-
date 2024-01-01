@@ -5,6 +5,9 @@ body {
 div h1 {
   font-size: 40px;
 }
+p{
+  color: #383838;
+}
 
 .name-highlighter {
   color: orange;
