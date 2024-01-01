@@ -90,7 +90,7 @@ section {
 }
 #side-border {
   border-left: 4px solid;
-  border-image: linear-gradient(180deg, tomato, rgb(255, 196, 0));
+  border-image: linear-gradient(180deg, tomato, rgb(255, 38, 0));
   border-image-slice: 1;
 }
 #side-border2 {
