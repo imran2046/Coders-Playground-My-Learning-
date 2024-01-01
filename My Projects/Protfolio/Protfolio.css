@@ -1,0 +1,21 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+div h1 {
+  font-size: 40px;
+}
+
+.name-highlighter {
+  color: orange;
+}
+.box{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.box img{
+    width: 80%;
+    float: right;
+    margin-top: 10%;
+}
