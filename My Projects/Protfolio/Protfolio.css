@@ -24,23 +24,79 @@ div h1 {
 
 section {
   height: 500px;
+  padding-bottom: 10%;
 }
 .banner {
   /*border: 1px solid black;*/
   background-image: url(header-bg.png);
   background-repeat: no-repeat;
 }
+
 .hire-me-btn {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
   color: white;
-  background-image:linear-gradient(to left,orange,tomato);
+  background-image: linear-gradient(to left, orange, tomato);
   padding: 8px 12px;
   border-radius: 8px;
 }
-.hire-me-btn:hover{
-    background-image:linear-gradient(to left,tomato,orange);
-    border:2px solid lightblue;
-    border-radius: 8px;
+.hire-me-btn:hover {
+  background-image: linear-gradient(to left, tomato, orange);
+  border: 2px solid rgb(1, 255, 39);
+  border-radius: 8px;
+}
+
+#mid-img {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.mid {
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.name-highlighter2 {
+  color: #ff008c;
+}
+
+.resume-btn {
+  text-decoration: none;
+  background-image: linear-gradient(to left, #fc2424, #d60076);
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 9px;
+}
+.resume-btn:hover {
+  background-image: linear-gradient(to right, #fc2424, #d60076);
+  border-radius: 8px;
+  border: 2px lightslategray solid;
+}
+
+#exp-heading {
+  margin-left: 6%;
+  font-size: 40px;
+  color: orange;
+}
+.card-area {
+  box-shadow: 4px 4px 25px lightslategray;
+  height: 45%;
+}
+#side-border {
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, tomato, rgb(255, 196, 0));
+  border-image-slice: 1;
+}
+#side-border2 {
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, #ff008c, #007bff);
+  border-image-slice: 1;
+}
+.footer {
+  background-image: url(exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
