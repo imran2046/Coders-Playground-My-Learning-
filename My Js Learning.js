@@ -66,4 +66,33 @@ function squareRoot(num3) {
 }
 var x = squareRoot(625);
 var y = squareRoot(25);
-console.log(x,y);
+console.log(x, y);
+
+var number = 5.25;
+var res1 = Math.floor(number);
+console.log(res1);
+var res2 = Math.ceil(number);
+console.log(res2);
+var res3 = Math.round(number);
+console.log(res3);
+
+for (var x = 1; x <= 6; x++) {
+    var chokka = Math.random() * 6;
+    var res4 = Math.round(chokka);
+    console.log("Random number is = ", res4);
+}
+
+let P = 10;
+let Q = 20;
+let R = Math.max(P, Q);
+console.log("Biggest number is ", R);
+
+let marks = [65, 67, 45, 74, 80, 33, 99, 88];
+let maxMarks = marks[0];
+for (let x = 0; x < marks.length; x++) {
+    let _element = marks[x];
+    if (_element > maxMarks) {
+        maxMarks = _element;
+    }
+}
+console.log("Max marks is ",maxMarks);
